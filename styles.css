@@ -1,3 +1,28 @@
 body {
   background: yellow;
 }
+/*  showing padding & border */
+table{
+  padding: 50px;
+  border-top: dashed;
+  border-bottom: dotted;
+}
+/*  showing margin */
+ol{
+  margin-left: 10%;
+}
+/*  centered element */
+footer{
+  text-align: center;
+  min-width: 500px;
+}
+/*  background image & font */
+li{
+  background: linear-gradient( grey, white);
+  font: Verdana, Arial, Sans-serif;
+}
+/*  elements styled using a class */
+.greentext{
+  font-family: monospace;
+  color: green;
+}
