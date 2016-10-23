@@ -1,4 +1,4 @@
-body {
+body{
   background: yellow;
 }
 /*  showing padding & border */
@@ -27,15 +27,15 @@ li{
   color: green;
 }
 /*  different color for visited links */
-A.LinkColor {color: green;}
+/* A.LinkColor {color: green;} */
 A.LinkColor:link {color: green;}
-A.LinkColor:visted {color: red;}
+A.LinkColor:visited {color: red;}
 A.LinkColor:active {color: green;}
 A.LinkColor:hover {text-decoration: underline overline; color: blue;}
 /*  element styled with an ID */
 #Chester {
   font-size: x-large;
-  font-style: bold ;
+  font-weight: bold ;
   color: pink;
 }
 /*  one media query to improve the responsiveness */
